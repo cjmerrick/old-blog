@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Setting up my Blog"
+date:   2016-07-30 08:43:59
+author: Chris Merrick
+categories: Blog-Setup
+tags: blog-configuration
+cover:  "/assets/instacode.png"
+---
+
+<h1>Why I chose Jekyll</h1>
+I'm not going to lie. When I first started thinking about what technology I would use to make my blog WordPress was the first thing that popped into my mind. But then I started remembering what pain in the ass WordPress was. Sure it is a great out of the box solution but there are more negatives than positives.
+
+
+Jekyll img
+<h1>Then I Remembered Jekyll</h1>
+The next alternative that came to mind was Jekyll which was very enticing. Why did I like it?
+
+<h1>Speed and Scale</h1>
+
+- Speed
+  I chose it because Jekyll is not a CMS like Wordpress, Drupal, or Tumblr. It is a Parsing Engine written in Ruby. It is what is known as a static site generator. This means that it runs scripts that produce the code into the _site directory which is then statically generated. This is much faster than WordPress because Jekyll does not need to query the database every single time a request is made to it, in fact it doesn't even have a database. This allows 
+
+
+<!--  Bullet Points
+      - Choosing a technology
+      - How I set up Jekyll
+      - 
+
+<h1>Blog configuration</h1>
+This post will be about why I chose Jekyll over Wordpress and then go into explaining what Jekyll is, how it works, and what is possible with it. Also mention the ability to transfer a site to Wordpress and then host that wordpress site on Heroku if you change your mind in the future.
+
+
+<h2>Choosing a Technology</h2>
+When I was deciding what technology I wanted to use to publish my blog online it came down to two technologies. The first one is something most web developers have at least poked around with and most of them that have don't want to work with it again. You guessed it, I'm talking about Wordpress. My other choice was Jekyll, a static site generator that is built in Ruby and Javascript.
+
+<h2>About Jekyll</h2>
+Somehting about Jekyll . . . .
+
+
+<h2>Transfering a site to Wordpress</h2>
+
+
+<h2>Hosting site on Heroku</h2>
