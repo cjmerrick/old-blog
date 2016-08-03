@@ -8,18 +8,62 @@ tags: blog-configuration
 cover:  "/assets/instacode.png"
 ---
 
-<h1>Why I chose Jekyll</h1>
-I'm not going to lie. When I first started thinking about what technology I would use to make my blog WordPress was the first thing that popped into my mind. But then I started remembering what pain in the ass WordPress was. Sure it is a great out of the box solution but there are more negatives than positives.
+<h1>Where to Start?</h1>
+I'm not going to lie. When I first thought about what tools I would use to make my blog, WordPress was the first thing that popped into my mind. But then I started remembering what a pain WordPress can be, that it runs on PHP, it's architecture is questionable at best, and no matter how nice the theme may be I hate using those ugly admin panels. 
+
+It just felt wrong to create my blog with Wordpress because it most likely is not going to help me become a better developer. I admit that it is a great out of the box solution for certain jobs but for my blog there were more negatives than positives.
 
 
 Jekyll img
 <h1>Then I Remembered Jekyll</h1>
-The next alternative that came to mind was Jekyll which was very enticing. Why did I like it?
+The next alternative that came to mind was Jekyll which was very enticing. 
+
+Why did I like it?
+
 
 <h1>Speed and Scale</h1>
 
 - Speed
-  I chose it because Jekyll is not a CMS like Wordpress, Drupal, or Tumblr. It is a Parsing Engine written in Ruby. It is what is known as a static site generator. This means that it runs scripts that produce the code into the _site directory which is then statically generated. This is much faster than WordPress because Jekyll does not need to query the database every single time a request is made to it, in fact it doesn't even have a database. This allows 
+  I chose it because Jekyll is not a CMS like Wordpress, Drupal, or Tumblr. It is a Parsing Engine written in Ruby. It is what is known as a static site generator. This means that it runs scripts that produce the code into the _site directory which is then statically generated. This is much faster than WordPress because Jekyll does not need to query the database every single time a request is made to it, in fact it doesn't even have a database. This allows me to greatly increase the speed at which my Jekyll blog serves pages to a client. 
+
+- Scale
+  Because Jekyll is a static site generator that processes everything in it's files, compiles them into the _site directory, and then sends a finished product to the client for them to view it, greatly increasing the sites scalability. Compare this to a Wordpress site where every time a client makes a request of the site the site must then query it's database. Now imagine thousands of people making queries repeatedly to the same SQL database and you can see why scaling a Wordpress site is a problem. When a client clicks on a link to take them to my Jekyll blog they are served up the entirety of the blog upfront and no more requests to the server are needed.
+
+<h1>Has a Built in Backup</h1>
+
+- Automatic Backup
+  Backing up a Wordpress site can be a headache and worse, it can cost you money! I like to avoid headaches and wasting money so this was another major win for Jekyll. The development cycle of Jekyll provides you an automatic backup of your Jekyll site and you can test your changes on your local host before deploying changes to your live site. Also, because your Jekyll backup is on your local machine, whenever you want to migrate to a new host server all you have to do is upload the data to the new web host.
+
+<h1>What Sealed the Deal?</h1>
+
+- Jekyll is Written in Ruby
+  Ruby is the language I most commonly code in so I liked that I could look at the structure of it and begin to get a sense of how it worked. It's also a great opportunity to build on top of it in the future and see what is possible with Jekyll.
+
+- Free Hosting on GitHub pages
+  I already told you how I don't like wasting money so you know that being able to host it for free on GitHub Pages was a major selling point for me. Why pay for hosting when you can get it for free?
+
+<h1>Set up and Configuration</h1>
+
+- Although Jekyll may not be as straight forward as WordPress, it's not rocket science either. 
+First make sure you have Ruby installed on your computer by typing the following line into the terminal.
+    $ ruby -v
+
+    (Take Note: Do not type the dollar sign at the beginning of the command, it is only meant to represent the terminal prompt)
+
+Then you'll want to install Homebrew as this is what we will use to install Jekyll. To install Homebrew type the following line into your terminal and hit enter.
+    $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+Once Homebrew has installed type the following line into the terminal to install Jekyll!
+    $ gem install jekyll
+    (You can check your Jekyll version by typing, jekyll -v)
+
+
+
+
+
+
+
+
+
 
 
 <!--  Bullet Points

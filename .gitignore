@@ -10,3 +10,6 @@ _site
 Gemfile.lock
 .bundle/
 vendor/
+
+# Unfinished Blog Posts
+.2016-07-31-first-real-post.markdown
