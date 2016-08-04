@@ -116,14 +116,13 @@ comments: true
 {% endif %}
 
 
-<br/>
-<br/>
 {% if site.disqus_shortname %}
 <!-- {% unless page.disqus_disabled %} -->
+
 <section class="disqus">
-  {% if page.comments %}
-<div id="disqus_thread"></div>
-<script type="text/javascript">
+  <!-- {% if page.comments %} -->
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
     var disqus_shortname = '{{ site.disqus_shortname }}';
     var disqus_identifier = '{{ page.url }}';
     var disqus_title      = '{{ page.title }}';
@@ -138,8 +137,13 @@ comments: true
     })();
   </script>
 
-
   <noscript>
     Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
   </noscript>
-  {% endif %}
+
+</section>
+{% endif %}
+  
+
+
+

@@ -79,10 +79,10 @@ social:
 
   - name: Disqus
     icon: Disqus
-    username: 
-    url: 
-    desc: 
-    share: 
+    username: cjmerrick
+    url: https://disqus.com/by/cjmerrick
+    desc: Leave a comment
+    share: true
 
   - name: Facebook
     icon: facebook
