@@ -18,7 +18,7 @@ description: >
 # root of your server.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://cjmerrick.github.io" # the base hostname & protocol for your site
+url: "https://cjmerrick.github.io" # the base hostname & protocol for your site
 cover: "/assets/cool_background_abstract.png"   #header_image.jpg
 logo: "/assets/logo.png"
 
@@ -41,7 +41,7 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
-disqus_shortname: cjmerrick
+disqus_shortname: 'cjmerrick'
 
 # Google analytics
 ga_tracking_id: "UA-XXXX-1"
