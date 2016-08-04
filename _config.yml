@@ -17,7 +17,7 @@ description: >
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 
-baseurl: "" # the subpath of your site, e.g. /blog/
+#baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://cjmerrick.github.io" # the base hostname & protocol for your site
 cover: "/assets/cool_background_abstract.png"   #header_image.jpg
 logo: "/assets/logo.png"
@@ -44,7 +44,7 @@ jekyll-archives:
 disqus_shortname: 'cjmerrick-github-io'
 
 # Google analytics
-ga_tracking_id: "UA-XXXX-1"
+# ga_tracking_id: "UA-XXXX-1"
 
 # Category descriptions (for archive pages)
 descriptions:
@@ -76,6 +76,13 @@ social:
   #  url: https://twitter.com/username
   #  desc: Follow me on Twitter
   #  share: true
+
+  - name: Disqus
+    icon: Disqus
+    username: 
+    url: 
+    desc: 
+    share: 
 
   - name: Facebook
     icon: facebook
