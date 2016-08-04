@@ -1,6 +1,8 @@
 ---
 layout: default
+comments: true
 ---
+
 <div class="post">
 
 <div class="post-header-container {% if page.cover %}has-cover{% endif %}" {% if page.cover %}style="background-image: url({{ page.cover | prepend: site.baseurl }});"{% endif %}>
@@ -116,6 +118,7 @@ layout: default
 {% if site.disqus_shortname %}
 {% unless page.disqus_disabled %}
 <section class="disqus">
+  {% if page.comments %}
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     var disqus_shortname = '{{ site.disqus_shortname }}';
@@ -150,7 +153,8 @@ layout: default
   <noscript>
     Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
   </noscript>
-
+  {% endif %}
+  
   <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </section>
 {% endunless %}
