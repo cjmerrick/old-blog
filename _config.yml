@@ -17,7 +17,7 @@ description: >
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 
-baseurl: "/devblog" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://cjmerrick.github.io" # the base hostname & protocol for your site
 cover: "/assets/cool_background_abstract.png"   #header_image.jpg
 logo: "/assets/logo.png"
@@ -27,7 +27,6 @@ logo: "/assets/logo.png"
 markdown: kramdown
 paginate: 3
 paginate_path: "/page:num/"
-comments: true
 inter_post_navigation: false
 highlightjs_theme: "monokai_sublime"
 
