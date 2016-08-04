@@ -11,37 +11,39 @@ title: Official Blog of Chris Merrick
 subtitle: A Web Development Blog
 email: cmerrick@mail.fresnostate.edu
 name: Chris Merrick
-disqus_shortname: cjmerrick
+disqus_shortname: cjmerrick-github-io
 description: >
   This site covers the topics of web development, accelerated learning, and my own projects. Please leave a comment or share if you find it valuable.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 
-#baseurl: "/centrarium" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://cjmerrick.github.io" # the base hostname & protocol for your site
 cover: "/assets/cool_background_abstract.png"   #header_image.jpg
 logo: "/assets/logo.png"
+
 
 # Build settings
 markdown: kramdown
 paginate: 3
 paginate_path: "/page:num/"
+comments: true
 inter_post_navigation: false
 highlightjs_theme: "monokai_sublime"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
-#jekyll-archives:
-#  enabled:
-#    - categories
-#    - tags
-#  layout: 'archive'
-#  permalinks:
-#    category: '/category/:name/'
-#    tag: '/tag/:name/'
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
 
-# Disqus comments ########## DISQUS NOT WORKING ######
-disqus_shortname: jmaerk
+# Disqus comments
+disqus_shortname: cjmerrick
 
 # Google analytics
 ga_tracking_id: "UA-XXXX-1"
@@ -89,7 +91,7 @@ social:
     username: cjmerrick
     url: https://github.com/cjmerrick
     desc: Fork me on GitHub
-    share: false
+    share: true
 
   - name: LinkedIn
     icon: linkedin
@@ -98,7 +100,7 @@ social:
     desc: Connect with me on LinkedIn
     share: false
 
-  - name: Google+
+  - name: Google
     icon: google-plus
     username:
     url:
