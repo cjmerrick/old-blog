@@ -7,12 +7,12 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Official Blog of Chris Merrick
-subtitle: A Web Development Blog
+title: Chris Merrick's Blog
+subtitle: Web Dev Blog
 email: cmerrick@mail.fresnostate.edu
 name: Chris Merrick
 description: >
-  This site covers the topics of web development, accelerated learning, and my own projects. Please leave a comment or share it if you find it valuable.
+  This is a blog about web development but mostly covers what I learn while working on my own projects.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
