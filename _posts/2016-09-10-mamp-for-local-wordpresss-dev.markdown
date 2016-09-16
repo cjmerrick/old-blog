@@ -1,11 +1,13 @@
-mamp-for-local-wordpresss-dev
+---
+layout: post
+title:  "Using Mamp for Local WordPress Development"
+date:   2016-09-10 08:43:59
+author: Chris Merrick
+categories: Development
+tags: development
+cover:  "/assets/railroad.png"
+---
 
-2016-09-10
-
-Setting up my Local Dev Environment for clients' Wordpress sites
-
-Setting_up_a_local_WP_env
-  For a Premium WP Theme
 
 I recently decided to test out the X-theme wordpress theme the and I wanted to use it locally, meaning on my computer instead of editing a live site. This is a good way to go because it's free and it's a quicker, faster environment to develop with than a live site online. Being that I use a Mac for development, I downloaded Mamp. This is a program that let's you serve up files to your localhost. Mamp is an acronym for Mac Osx, the database management system MySQL, the web server Apache, and PHP, Perl, or Python. Having downloaded Mamp can then launch your server with the click of a button which then hosts the files in your /Applictions/MAMP/htdocs folder onto the localhost.
 
