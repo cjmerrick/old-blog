@@ -5,14 +5,14 @@ date:   2016-07-30 08:43:59
 author: Chris Merrick
 categories: Welcome
 tags: welcome
-cover:  "/assets/railroad.png"
+cover:  "/assets/fresno_skyline1.png"
 ---
 
 # The Right Tool
 
 This blog was created with Jekyll which is a static site generator written in Ruby. I considered using a CMS like Wordpress but in the end I chose Jekyll for a few reasons. The benefits of Jekyll are that it is fast, secure, and lightweight when compared to a tool like a CMS such as Wordpress. So how does Jekyll provide these advantages?
 
-# The Short Answer 
+# The Short Answer
 
 Jekyll generates static sites!
 
@@ -26,7 +26,7 @@ In fact, the main benefit's of Jekyll are a direct effect of it not having a dat
 
 2. It is secure because there is no database to disrupt with SQL injection or other methods.
 
-3. It is light in terms of resources because the heavy lifting is done by Jekyll before it is hosted on the web. This is a reference to the precompiling I was talking about before. A folder named _site is where the website to be hosted is precompiled into and stored. It is because Jekyll is so light on resources that it can be hosted for free on Github Pages.
+3. It is light in terms of resources because the heavy lifting is done by Jekyll before it is hosted on the web. This is a reference to the precompiling I was talking about before. A folder named \_site is where the website to be hosted is precompiled into and stored. It is because Jekyll is so light on resources that it can be hosted for free on Github Pages.
 
 # In Conclusion
 

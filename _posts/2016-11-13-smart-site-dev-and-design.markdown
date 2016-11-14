@@ -5,7 +5,7 @@ date:   2016-11-13 08:43:59
 author: Chris Merrick
 categories: Smart Site
 tags: smart_site
-cover:  "/assets/fresno_skyline1.png"
+cover:  "/assets/smart_site_brand.JPG"
 ---
 # I'm back!
 
