@@ -19,8 +19,8 @@ description: >
 
 #baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://cjmerrick.github.io" # the base hostname & protocol for your site
-cover: "/assets/smart_site_logo.JPG"   #header_image.jpg
-logo: "/assets/smart_site_logo.JPG"
+cover: "/assets/smart_site_brand.JPG"   #header_image.jpg
+logo: "/assets/smart_site_brand.JPG"
 
 
 # Build settings
