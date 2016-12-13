@@ -7,7 +7,7 @@ categories: Smart Site
 tags: smart_site
 cover:  "/assets/smart_site_brand.JPG"
 ---
-# I'm back!
+# It's been awhile!
 
 Hey sorry it's been awhile since I've posted anything. But from now on it will be on a more regular basis. Hopefully.
 
